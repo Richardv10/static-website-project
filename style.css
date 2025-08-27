@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* theme colors */
+:root {
+    --primary-color: #00468c;
+    --secondary-color: #b54714;
+    --highlight-color: #ffea61;
+    --pink-color: #f0aaa2;
+    --background-color: #3de0b5;
+    --green-color: #00a589;
+    --brown-color: #67281a;
+    --grey-color: grey;
+    --aqua-color: #249D9F;
+    --yellow-color: #d76f39;
+    --blue-dark: #2c3e50;
+}
+
+
+/* Global override for all rounded corners */
+* {
+    border-radius: 0 !important;
+}
+
+/* modern hyperlinks */
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--highlight-color);
+}
+
+/* Modern Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color) !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+main {
+  background-color: var(--background-color);
+}
+
+#welcome {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+button:hover {
+  background-color: var(--highlight-color) !important;
+  color:#2c3e50 !important;
+  box-shadow: var(--primary-color) 0 6px 8px
+}
+
+.btn {
+  background-color: var(--aqua-color) !important;
+  color: white !important;
+  border: solid 1px var(--blue-dark) !important;
+}
+
+.backfill {
+  background-color: var(--yellow-color) !important;
+}
+
+#intro {
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  color: var(--blue-dark);
+  background-color: var(--yellow-color);
+  border: 1px solid var(--secondary-color);
+  box-shadow: var(--primary-color) 0 8px 10px;
+}
+
+#hero1 {
+    background-image: url("assets/images/hero2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Navbar styles */
+
+.navbar {
+    background-color: var(--yellow-color)!important;
+}
+
+.nav-link:hover {
+    color: var(--highlight-color) !important;
+}
+
+/* Accordion Styles */
+
+.accordion-button {
+    background-color: var(--yellow-color) !important;
+    color: var(--blue-dark);
+    font-weight: 700;
+}
+
+.accordion-button:hover {
+    background-color: var(--highlight-color);
+    color: var(--blue-dark);
+}
+
+.accordion-body {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Card Sections Background Styles */
+
+.stress-cards-section {
+  background-color: var(--background-color);
+}
+
+/* Universal Card Styles */
+.cards {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    overflow: hidden; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+}
+.card-body {
+   background-color: var(--yellow-color);
+}
+
+#financial-stress, #relationship-stress, #work-stress, #health-stress {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#adhd, #autism, #dyslexia, #tourettes {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cards .card-img-top {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.cards .card-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.cards .card-text {
+    color: #6c757d;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+
+    
+    .stress-cards-section,
+    .neurodivergence-cards-section,
+    .relaxation-cards-section {
+        padding: 3rem 0 !important;
+    }
+
+
+/* gallery styles */
+
+html,body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
+}
+
+.container {
+  padding: 10px 0;
+  margin: 20px auto;
+  width: 1140px;
+}
+
+/* flexbox styles for gallery */
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+  .item:hover {
+    flex: 7;
+  }
+
+
+.item-1 { 
+  background-image: url('assets/images/pexels-freestockpro-12940876-min.jpg');
+}
+
+.item-2 { 
+  background-image: url('assets/images/pexels-maxandrey-1229753-min.jpg');
+}
+
+.item-3 { 
+  background-image: url('assets/images/pexels-pixabay-289998-min.jpg');
+}
+
+.item-4 { 
+  background-image: url('assets/images/pexels-yasar-baskurt-706180077-27820065-min.jpg');
+}
+
+.item-5 { 
+  background-image: url('assets/images/pexels-pixabay-235990-min.jpg');
+}
+
+.social{
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+  
+  img {
+    display: block;
+    width: 32px;
+  }
+}
+
+
+/* Relaxation Styles */
+
+.myTabContent {
+    max-height: 60%;
+    overflow-y: auto;
+}
+
+/* Footer Styles */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color);
+    font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
+#contact .table-dark * {
+    background-color: transparent;
+}
+
+/* Media queries  */
+
+@media (max-width: 576px) { 
+
+    
+.gallery-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+  .item:hover {
+    flex: 7;
+  }
+ }
+/*
+ @media (max-width: 768px) {
+    .card-img-top {
+      min-height: 800px;
+    }
+    }
+ */

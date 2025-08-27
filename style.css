@@ -20,6 +20,7 @@
 }
 
 
+
 /* Global override for all rounded corners */
 * {
     border-radius: 0 !important;
@@ -314,6 +315,16 @@ html,body {
 #contact .table-dark * {
     background-color: transparent;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Media queries  */
 

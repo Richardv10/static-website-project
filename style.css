@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-    color: var(--highlight-color);
+    color: var(--primary-color);
 }
 
 /* Modern Heading Styles */
@@ -59,23 +59,15 @@ h2 {
 
 h3 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 600;    
 }
 
 h4 {
     font-size: 1.5rem;
     font-weight: 600;
+    color: var(--secondary-color) !important;
 }
 
-h5 {
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-
-h6 {
-    font-size: 1rem;
-    font-weight: 500;
-}
 main {
   background-color: var(--background-color);
 }
@@ -99,6 +91,8 @@ button:hover {
 
 .backfill {
   background-color: var(--yellow-color) !important;
+  margin: 0 !important;
+  border: 0 !important;
 }
 
 #intro {
@@ -110,6 +104,11 @@ button:hover {
   border: 1px solid var(--secondary-color);
   box-shadow: var(--primary-color) 0 8px 10px;
 }
+
+#mental-health-awareness {
+  margin-top: 0 !important;
+}
+
 
 #hero1 {
     background-image: url("assets/images/hero2.jpg");
@@ -127,7 +126,11 @@ button:hover {
 }
 
 .nav-link:hover {
-    color: var(--highlight-color) !important;
+    color: var(--primary-color) !important;
+}
+.nav-link {
+  background-color: var(--yellow-color) !important;
+  color: var(--blue-dark) !important;
 }
 
 /* Accordion Styles */

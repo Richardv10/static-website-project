@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Better Brains</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <script
       src="https://kit.fontawesome.com/c89cebbe58.js"
       crossorigin="anonymous"
@@ -13,26 +13,24 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta http-equiv="Cache-control" content="public" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta http-equiv="Cache-control" content="public">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
   </head>
   <body>
     <!--Navbar-->
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> @ The Mental Health Project</a>
+          <a class="navbar-brand" href="#hero1"> @ The Mental Health Project</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -55,10 +53,10 @@
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Learning Resources</a>
+                <a class="nav-link" href="#stress-cards">Learning Resources</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Crisis Numbers</a>
+                <a class="nav-link" href="#crisis-resources">Crisis Numbers</a>
               </li>
             </ul>
           </div>
@@ -68,28 +66,30 @@
 
     <main>
       <!-- Hero Section  -->
-      <div class="jumbotron jumbotron-fluid" id="hero1">
+      <div class="jumbotron" id="hero1">
         <div class="container">
-            <div class="row">
-          <button type="button" class="btn btn-primary btn-lg col-lg-6">
-            <a href="#crisis-resources">Join our Mailing List</a>
-          </button>
-          <button type="button" class="btn btn-primary btn-lg col-lg-6" ><a href="#faq">
-            FAQ's
-          </a></button>
-          <button type="button" class="btn btn-primary btn-lg col-lg-6">
-            <a href="#stress-cards">Understanding Stress</a>
-          </button>
-          <button type="button" class="btn btn-primary btn-lg col-lg-6">
-            <a href="#neurodivergence-cards">Understanding Neurodivergence</a>
-          </button>
-          <button type="button" class="btn btn-primary btn-lg col-lg-6">
-            <a href="#crisis-resources">Crisis Resources</a>
-          </button>
-          <button type="button" class="btn btn-primary btn-lg col-lg-6">
-            <a href="#relaxation-corner">Gallery</a>
-          </button>
-         
+          <div class="row mb-3">
+            <div class="col-12 col-lg-4 mb-2">
+              <a href="#crisis-resources"><button type="button" class="btn btn-primary btn-lg w-100">Join our Mailing List</button></a>
+            </div>
+            <div class="col-12 col-lg-4 mb-2">
+              <a href="#faq"><button type="button" class="btn btn-primary btn-lg w-100">FAQ's</button></a>
+            </div>
+            <div class="col-12 col-lg-4 mb-2">
+              <a href="#stress-cards"><button type="button" class="btn btn-primary btn-lg w-100">Understanding Stress</button></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-2">
+              <a href="#neurodivergence-cards"><button type="button" class="btn btn-primary btn-lg w-100">Understanding Neurodivergence</button></a>
+            </div>
+            <div class="col-12 col-lg-4 mb-2">
+              <a href="#crisis-resources"><button type="button" class="btn btn-primary btn-lg w-100">Crisis Resources</button></a>
+            </div>
+            <div class="col-12 col-lg-4 mb-2">
+              <a href="#relaxation-corner"><button type="button" class="btn btn-primary btn-lg w-100">Gallery</button></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -119,7 +119,6 @@
       <section id="faq">
         <div class="container">
           <h2>FAQ's</h2>
-        </div>
         <!-- FAQ Accordion-->
         <div class="container container-fluid">
           <div class="row g-4">
@@ -132,15 +131,15 @@
                       class="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
+                      data-bs-target="#collapseOne1"
                       aria-expanded="false"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseOne1"
                     >
                       What is the purpose of this project?
                     </button>
                   </h2>
                   <div
-                    id="collapseOne"
+                    id="collapseOne1"
                     class="accordion-collapse collapse"
                     data-bs-parent="#accordionExample"
                   >
@@ -159,9 +158,9 @@
                       class="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
+                      data-bs-target="#collapseTwo2"
                       aria-expanded="false"
-                      aria-controls="collapseTwo"
+                      aria-controls="collapseTwo2"
                     >
                       How can I get involved?
                     </button>
@@ -183,9 +182,9 @@
                       class="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
+                      data-bs-target="#collapseThree3"
                       aria-expanded="false"
-                      aria-controls="collapseThree"
+                      aria-controls="collapseThree3"
                     >
                       Who can I contact for support?
                     </button>
@@ -209,10 +208,9 @@
             <!-- Image Column -->
             <div class="col-lg-4">
               <img
-                src="assets\images\MHF_WMHD24-KN.jpg"
+                src="assets/images/MHF_WMHD24-KN.jpg"
                 alt="mental health awareness"
-                class="img-fluid mt-4"
-              />
+                class="img-fluid" id="mental-health-awareness">
             </div>
           </div>
         </div>
@@ -227,10 +225,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\workstress-min.jpg"
+                  src="assets/images/workstress-min.jpg"
                   class="card-img-top"
-                  alt="Work Stress"
-                />
+                  alt="Work Stress">
                 <div class="card-body">
                   <button
                     class="btn btn-outline-secondary"
@@ -260,10 +257,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\womenstress-min.jpg"
+                  src="assets/images/womenstress-min.jpg"
                   class="card-img-top"
-                  alt="Relationship Stress"
-                />
+                  alt="Relationship Stress">
                 <div class="card-body">
                   <button
                     class="btn btn-primary"
@@ -292,10 +288,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\moneystress-min.jpg"
+                  src="assets/images/moneystress-min.jpg"
                   class="card-img-top"
-                  alt="Financial Stress"
-                />
+                  alt="Financial Stress">
                 <div class="card-body">
                   <button
                     class="btn btn-primary"
@@ -325,10 +320,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\healthstress-min.jpg"
+                  src="assets/images/healthstress-min.jpg"
                   class="card-img-top"
-                  alt="Health Stress"
-                />
+                  alt="Health Stress">
                 <div class="card-body">
                   <button
                     class="btn btn-primary"
@@ -366,10 +360,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\ADHD-min.png"
+                  src="assets/images/ADHD-min.png"
                   class="card-img-top"
-                  alt="ADHD"
-                />
+                  alt="ADHD">
                 <div class="card-body">
                   <button
                     class="btn btn-primary"
@@ -399,10 +392,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\Autism-min.png"
+                  src="assets/images/Autism-min.png"
                   class="card-img-top"
-                  alt="Autism"
-                />
+                  alt="Autism">
                 <div class="card-body">
                   <button
                     class="btn btn-primary"
@@ -433,10 +425,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\Dyslexia-min.png"
+                  src="assets/images/Dyslexia-min.png"
                   class="card-img-top"
-                  alt="Dyslexia"
-                />
+                  alt="Dyslexia">
                 <div class="card-body">
                   <button
                     class="btn btn-primary"
@@ -467,10 +458,9 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets\images\Tourettes-min.png"
+                  src="assets/images/Tourettes-min.png"
                   class="card-img-top"
-                  alt="Tourette's Syndrome"
-                />
+                  alt="Tourette's Syndrome">
                 <div class="card-body">
                   <button
                     class="btn btn-primary"
@@ -575,10 +565,9 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
-                      src="assets\images\breath-min.jpg"
+                      src="assets/images/breath-min.jpg"
                       class="card-img-top"
-                      alt="Breathing Exercises"
-                    />
+                      alt="Breathing Exercises">
                   </div>
                   <div class="col-md-8 backfill">
                     <div class="card-body">
@@ -607,10 +596,9 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
-                      src="assets\images\pexels-mastercowley-1199590-min.jpg"
+                      src="assets/images/pexels-mastercowley-1199590-min.jpg"
                       class="card-img-top"
-                      alt="exercise"
-                    />
+                      alt="exercise">
                   </div>
                   <div class="col-md-8 backfill">
                     <div class="card-body">
@@ -639,10 +627,9 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
-                      src="assets\images\pexels-soldiervip-1308881-min.jpg"
+                      src="assets/images/pexels-soldiervip-1308881-min.jpg"
                       class="card-img-top"
-                      alt="Nature Bathing"
-                    />
+                      alt="Nature Bathing">
                   </div>
                   <div class="col-md-8 backfill">
                     <div class="card-body">
@@ -671,10 +658,9 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
-                      src="assets\images\pexels-oluremi-adebayo-1507823-2908175-min.jpg"
+                      src="assets/images/pexels-oluremi-adebayo-1507823-2908175-min.jpg"
                       class="card-img-top"
-                      alt="Meditation"
-                    />
+                      alt="Meditation">
                   </div>
                   <div class="col-md-8 backfill">
                     <div class="card-body">
@@ -776,7 +762,7 @@
                     </h2>
                     <div
                       id="collapseOne"
-                      class="accordion-collapse collapse show"
+                      class="accordion-collapse collapse"
                       data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
@@ -921,7 +907,7 @@
           <!-- Contact info -->
 
           <div class="col-12 col-md-6 col-xl-4">
-            <h3 class="sub-heading-color">Contact info</h3>
+            <h4>Contact info</h4>
             <address>
               <p>
                 Better Brains <br />
@@ -964,7 +950,7 @@
           </div>
           <!-- Crisis line Opening times -->
           <div class="col-12 col-md-6 col-xl-4">
-            <h3 class="sub-heading-color">Here to Talk</h3>
+            <h4>Here to Talk</h4>
             <table class="table table-dark">
               <thead>
                 <tr>

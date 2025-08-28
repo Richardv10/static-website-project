@@ -53,10 +53,7 @@
                 <a class="nav-link" href="success.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#stress-cards">Learning Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#crisis-resources">Crisis Numbers</a>
+                <a class="nav-link" href="#stress-cards">Contact</a>
               </li>
             </ul>
           </div>
@@ -92,6 +89,7 @@
           </div>
         </div>
       </div>
+      <div class="spacer"></div>
       <!-- Intro section-->
       <div class="container">
         <h2 id="welcome">
@@ -119,9 +117,9 @@
           <h2>FAQ's</h2>
         <!-- FAQ Accordion-->
         <div class="container container-fluid">
-          <div class="row g-4">
+          <div class="row g-4 align-items-start">
             <!-- FAQ Accordion Column -->
-            <div class="col-lg-8">
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
@@ -200,20 +198,42 @@
                     </div>
                   </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour4"
+                      aria-expanded="false"
+                      aria-controls="collapseFour4"
+                    >
+                      Complaints
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  > 
+                    <div class="accordion-body">
+                      In the unlikely event you have a complaint, please email we aim to respond to all complaints within 7 working days.
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-
             <!-- Image Column -->
-            <div class="col-lg-4">
+            <div class="col-lg-6 col-md-12">
               <img
                 src="assets/images/MHF_WMHD24-KN.jpg"
-                alt="mental health awareness"
-                class="img-fluid" id="mental-health-awareness">
+                alt="mental health awareness" class="img-fluid" id="mental-health-awareness">
             </div>
           </div>
         </div>
       </section>
 
+      <div class="spacer"></div>
       <!-- Stress Cards-->
       <section class="stress-cards-section" id="stress-cards">
         <div class="container">
@@ -348,7 +368,7 @@
           </div>
         </div>
       </section>
-
+      <div class="spacer"></div>
       <!-- Neurodivergence Cards-->
       <section class="neurodivergence-cards-section" id="neurodivergence-cards">
         <div class="container">
@@ -487,10 +507,11 @@
           </div>
         </div>
       </section>
+<div class="spacer"></div>
 
       <!-- Relaxation Strategies-->
       <section id="relaxation-strategies">
-        <h2 class="text-center mb-5">Relaxation Strategies</h2>
+        <h2 class="text-center mb-5 mt-5">Relaxation Strategies</h2>
         <div class="container">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -510,7 +531,7 @@
             <li class="nav-item" role="presentation">
               <button
                 class="nav-link"
-                id="exercise"
+                id="exercise-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#exercise-tab-pane"
                 type="button"
@@ -693,6 +714,8 @@
         </div>
       </section>
 
+      <div class="spacer"></div>
+
       <!-- mailing list and crisis numbers section-->
       <section class="py-5" id="contact-crisis">
         <div class="container">
@@ -712,8 +735,7 @@
                       type="text"
                       class="form-control"
                       id="name"
-                      required
-                    />
+                      required>
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
@@ -721,8 +743,7 @@
                       type="email"
                       class="form-control"
                       id="email"
-                      required
-                    />
+                      required>
                   </div>
                   <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
@@ -905,7 +926,7 @@
           <!-- Contact info -->
 
           <div class="col-12 col-md-6 col-xl-4">
-            <h4>Contact info</h4>
+            <h4 class="footer-header">Contact info</h4>
             <address>
               <p>
                 Better Brains <br />
@@ -914,9 +935,10 @@
                 ST 12345
               </p>
             </address>
-            <p>
-              <i class="fa-solid fa-phone"></i> 0123456578<br />
-              <i class="fa-solid fa-paper-plane"></i> info@betterbrains.com
+            <p class="lead">
+              <i class="fa-solid fa-phone fa-xl"></i> 0123456578 <br>
+              <br>
+              <i class="fa-solid fa-paper-plane fa-xl"></i> info@betterbrains.com
             </p>
             <div class="social-links my-4">
               <a
@@ -948,7 +970,7 @@
           </div>
           <!-- Crisis line Opening times -->
           <div class="col-12 col-md-6 col-xl-4">
-            <h4>Here to Talk</h4>
+            <h4 class="footer-header">Here to Talk</h4>
             <table class="table table-dark">
               <thead>
                 <tr>

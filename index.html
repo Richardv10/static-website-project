@@ -45,12 +45,12 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="success.html"
                   >Donate</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="success.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#stress-cards">Learning Resources</a>
@@ -99,10 +99,9 @@
         <h2 id="welcome">
           Welcome to Better Brains @ The Mental Health Project
         </h2>
-        <img src="assets/images/3811637.jpg" alt="Mental Health" class="img-fluid col-lg-6">
+        <img src="assets/images/3811637.jpg" alt="Mental Health" class=" col-lg-6" id="mental-health-image" aria-describedby="">
         <div class="intro-container col-lg-6">
-          <div class="intro-bg-aqua position-absolute top-0 start-0"></div>
-          <div class="intro-bg-yellow position-absolute top-50 end-0 translate-middle-y"></div>
+         <h3> Where am I?</h3>
           <p class="lead" id="intro">
             Here you can find a selection of resources and tools to help you
             manage stress and improve your mental well-being. At the mental health
@@ -261,7 +260,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets/images/womenstress-min.jpg"
+                  src="assets/images/womenstress-min.webp"
                   class="card-img-top"
                   alt="Relationship Stress">
                 <div class="card-body">
@@ -364,7 +363,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets/images/ADHD-min.png"
+                  src="assets/images/ADHD-min.jpg"
                   class="card-img-top"
                   alt="ADHD">
                 <div class="card-body">
@@ -396,7 +395,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets/images/Autism-min.png"
+                  src="assets/images/Autism-min.jpg"
                   class="card-img-top"
                   alt="Autism">
                 <div class="card-body">
@@ -429,7 +428,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="card cards">
                 <img
-                  src="assets/images/Dyslexia-min.png"
+                  src="assets/images/Dyslexia-min.jpg"
                   class="card-img-top"
                   alt="Dyslexia">
                 <div class="card-body">
@@ -600,7 +599,7 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
-                      src="assets/images/pexels-mastercowley-1199590-min.jpg"
+                      src="assets/images/pexels-mastercowley-1199590-min.webp"
                       class="card-img-top"
                       alt="exercise">
                   </div>
@@ -631,7 +630,7 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
-                      src="assets/images/pexels-soldiervip-1308881-min.jpg"
+                      src="assets/images/pexels-soldiervip-1308881-min.webp"
                       class="card-img-top"
                       alt="Nature Bathing">
                   </div>
@@ -662,7 +661,7 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img
-                      src="assets/images/pexels-oluremi-adebayo-1507823-2908175-min.jpg"
+                      src="assets/images/pexels-oluremi-adebayo-1507823-2908175-min.webp"
                       class="card-img-top"
                       alt="Meditation">
                   </div>
@@ -990,12 +989,10 @@
       </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+    <!-- Smooth scrolling and navbar collapse script -->
     <script>
       document
         .querySelectorAll(".navbar-collapse .nav-link")
@@ -1020,6 +1017,8 @@
           });
         });
     </script>
+
+    <!-- Collapsible cards script -->
     <script>
       var coll = document.getElementsByClassName("collapsible");
       var i;

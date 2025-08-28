@@ -115,77 +115,8 @@ button:hover {
   color: var(--blue-dark);
   font-weight: 500;
   margin-top: 40px;
-  
-}
+  box-shadow: (var(--highlight-color)) 60px -16px;
 
-.intro-bg-yellow {
-  position: absolute;
-  right: -20px;
-  bottom: -20px;
-  width: 30%;
-  height: 30%;
-  background-color: var(--highlight-color);
-  z-index: 1;
-}
-
-.intro-bg-aqua {
-  position: absolute;
-  top: -20px;
-  left: -20px;
-  width: 30%;
-  height: 30%;
-  background-color: var(--aqua-color);
-  z-index: 2;
-}
-
-/* Responsive adjustments */
-@media (max-width: 991.98px) {
-  .intro-container {
-    margin-top: 1rem;
-    order: 2;
-  }
-  
-  #intro {
-    padding: 1.5rem;
-  }
-  
-  .intro-bg-yellow {
-    right: -15px;
-    bottom: -15px;
-    width: 70%;
-    height: 70%;
-  }
-  
-  .intro-bg-aqua {
-    top: -15px;
-    left: -15px;
-    width: 70%;
-    height: 70%;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .intro-container {
-    margin-top: 0.5rem;
-  }
-  
-  #intro {
-    padding: 1rem;
-  }
-  
-  .intro-bg-yellow {
-    right: -10px;
-    bottom: -10px;
-    width: 60%;
-    height: 60%;
-  }
-  
-  .intro-bg-aqua {
-    top: -10px;
-    left: -10px;
-    width: 60%;
-    height: 60%;
-  }
 }
 
 #mental-health-awareness {
@@ -436,10 +367,3 @@ html,body {
     flex: 7;
   }
  }
-/*
- @media (max-width: 768px) {
-    .card-img-top {
-      min-height: 800px;
-    }
-    }
- */

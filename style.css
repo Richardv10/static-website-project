@@ -80,7 +80,7 @@ main {
 button:hover {
   background-color: var(--highlight-color) !important;
   color:#2c3e50 !important;
-  box-shadow: var(--primary-color) 0 6px 8px
+  box-shadow: var(--primary-color) 0 6px 8px;
 }
 
 .btn {
@@ -95,14 +95,97 @@ button:hover {
   border: 0 !important;
 }
 
+.intro-container {
+  position: relative;
+  display: block;
+  margin-top: 2rem;
+}
+
+#mental-health-image {
+  margin-bottom: 20px;
+}
+
 #intro {
   text-align: center;
   margin: auto;
-  font-weight: 500;
+  position: relative;
+  z-index: 3;
+  padding: 2rem;
+  background-color: white;
   color: var(--blue-dark);
-  background-color: var(--yellow-color);
-  border: 1px solid var(--secondary-color);
-  box-shadow: var(--primary-color) 0 8px 10px;
+  font-weight: 500;
+  margin-top: 40px;
+  
+}
+
+.intro-bg-yellow {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 30%;
+  height: 30%;
+  background-color: var(--highlight-color);
+  z-index: 1;
+}
+
+.intro-bg-aqua {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 30%;
+  height: 30%;
+  background-color: var(--aqua-color);
+  z-index: 2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+  .intro-container {
+    margin-top: 1rem;
+    order: 2;
+  }
+  
+  #intro {
+    padding: 1.5rem;
+  }
+  
+  .intro-bg-yellow {
+    right: -15px;
+    bottom: -15px;
+    width: 70%;
+    height: 70%;
+  }
+  
+  .intro-bg-aqua {
+    top: -15px;
+    left: -15px;
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .intro-container {
+    margin-top: 0.5rem;
+  }
+  
+  #intro {
+    padding: 1rem;
+  }
+  
+  .intro-bg-yellow {
+    right: -10px;
+    bottom: -10px;
+    width: 60%;
+    height: 60%;
+  }
+  
+  .intro-bg-aqua {
+    top: -10px;
+    left: -10px;
+    width: 60%;
+    height: 60%;
+  }
 }
 
 #mental-health-awareness {

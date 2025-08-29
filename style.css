@@ -172,7 +172,6 @@ button:hover {
 
 .navbar {
     background-color: white !important;
-    border-bottom: var(--primary-color) 2px solid !important;
 }
 
 .nav-link:hover {
